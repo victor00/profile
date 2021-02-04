@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 300;
+    color: #E8E6E3; 
+    margin: auto;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+h2 {
+    padding-bottom: 10px;
+    color: #DA251D;
+}
+
+#intro h2 {
+    padding-top: 20px;
+}
+
+p {
+    padding: 0.3em;
+    padding-bottom: 10px;
+}
+
+img {
+  padding: 10px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+ul { 
+    list-style: none;
+    padding: 0
+}
+
+li {
+    display: inline-block;
+    padding-left: 1.3em;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card { 
+    padding: 8px;
+    width: 35%;
+    height: 35%;
+    background-color: #11100d;
+    margin: 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+    justify-content: center;
+    border-radius: 0.8em;
+    
+}
+
+.title-card {
+    align-items: center;
+}
+
+
+.list-skills li i {
+    font-size: 30px !important;   
+}
+
+.list-skills p {
+    padding-top: 30px;  
+}
+
+.list-skills li {
+    padding-top: 10px;  
+}
+
+.list-skills p {
+    display: flex;
+    font-size: 25px;
+    font-family: 'Creepster', cursive;
+    
+}
+
+.list-skills li i:hover {
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+
+.list-social li i {
+    font-size: 45px !important;
+    padding-left: 0px;
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.list-social li i:hover {
+    color: whitesmoke;
+    opacity: 0.4;
+    transition: 0.5s; 
+}
+
+.little-grow {
+    
+    transition: all .2s ease-in-out; 
+}
+
+.little-grow:hover {
+    transform: scale(1.1); 
+    padding-top: 8px;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+    transform: scale(1.5); 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#cool-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+#intro {
+    position: relative;
+    align-items: center;
+}
+
+.input-lewagon {
+    width: 100%;
+    background: none;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-lewagon:hover {
+    background-position: -1;
+    transition: all .2s ease-out; 
+    background-image: none !important;
+}
+
+.input-lewagon {
+    position: relative;
+    background-image: url(https://dwj199mwkel52.cloudfront.net/assets/core/svg/logo-lewagon-5ff5f090209d8d3bf493790d7935822208011748adb83a2fbc6bcaaf05a289ef.svg); /* 16px x 16px */
+    background-repeat: no-repeat;  /* make the background image appear only once */ /* equivalent to 'top left' */          /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    padding: 18px;
+    background-position: center;
+   
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: landscape) {
+
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait */
+
+@media screen
+
+and (device-width: 360px)
+
+and (device-height: 640px)
+
+and (-webkit-device-pixel-ratio: 3)
+
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+
+@media screen
+
+and (device-width: 360px)
+
+and (device-height: 640px)
+
+and (-webkit-device-pixel-ratio: 3)
+
+and (orientation: landscape) {
+
+}
